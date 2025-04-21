@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    background-color: #f4f6f8;
+
+  }
+
+  .sidebar{
+    background-color: rgb(44, 16, 70);
+    height: 150vh;
+    position: fixed;
+    width: 300px;
+     
+    
+  }
+
+  .sidebar h1{
+    padding: 12px;
+    color: aqua;
+    padding-left: 30px;
+    cursor: pointer;
+    
+  }
+
+  .sidebar a {
+    padding: 25px;
+    display: flex;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #f4f6f8;
+    font-weight: bold;
+
+  }
+
+  .main{
+    margin-left: 300px;
+    
+  }
+  .main h1{
+    padding: 25px;
+    color: rgb(44, 19, 67);
+  }
+
+.cards{
+    padding-top: 15px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
